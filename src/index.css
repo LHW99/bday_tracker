@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F08080;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.container {
+  background: white;
+  color: black;
+  width: 60vw;
+  height: auto;
+  margin: 5rem auto;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+section {
+  display: grid;
+}
+
+article {
+  display: grid;
+  margin: 10px;
+  padding: 10px;
+  background: #ffe6e6;
+  column-gap: .75rem;
+  align-items: center;
+  border-radius: 20px;
+}
+
+img {
+  overflow:hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:90px;
+  height:90px;
+  background-size: 90px 0px;
+}
+
+.description {
+  margin-left: 0;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+button {
+  width: 10rem;
+  height: 4rem;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: bold;
+  background: #F08080;
+  border-style: solid;
+  justify-self: center;
+  margin: 10px;
 }
